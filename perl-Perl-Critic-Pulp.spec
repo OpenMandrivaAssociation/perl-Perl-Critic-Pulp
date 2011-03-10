@@ -1,9 +1,9 @@
 %define upstream_name    Perl-Critic-Pulp
-%define upstream_version 47
+%define upstream_version 48
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Don't use Foo:: style barewords
 License:    GPL+ or Artistic
