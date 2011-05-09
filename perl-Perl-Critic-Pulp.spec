@@ -1,5 +1,5 @@
 %define upstream_name    Perl-Critic-Pulp
-%define upstream_version 57
+%define upstream_version 58
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
