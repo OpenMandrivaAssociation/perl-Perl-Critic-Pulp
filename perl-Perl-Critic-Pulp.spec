@@ -14,6 +14,7 @@ Source0:    http://www.cpan.org/modules/by-module/Perl/%{upstream_name}-%{upstre
 BuildRequires: perl(IO::String)
 BuildRequires: perl(List::MoreUtils)
 BuildRequires: perl(List::Util)
+BuildRequires: perl(Poid::MinimumVersion)
 BuildRequires: perl(PPI)
 BuildRequires: perl(Perl::Critic)
 BuildRequires: perl(Perl::Critic::Policy)
