@@ -1,15 +1,15 @@
 %define upstream_name    Perl-Critic-Pulp
-%define upstream_version 79
+%define upstream_version 80
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 79
+Version:	%perl_convert_version 80
 Release:	1
 
 Summary:	Don't use Foo:: style barewords
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Perl/Perl-Critic-Pulp-79.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Perl/Perl-Critic-Pulp-80.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(IO::String)
@@ -116,5 +116,6 @@ rm -f *.list
 * Thu Sep 02 2010 Jérôme Quelin <jquelin@mandriva.org> 41.0.0-1mdv2011.0
 + Revision: 575427
 - import perl-Perl-Critic-Pulp
+
 
 
