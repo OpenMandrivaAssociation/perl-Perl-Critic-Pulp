@@ -1,4 +1,5 @@
 removed_sources:
   Perl-Critic-Pulp-62.tar.gz: 25283fd00c0dd7b9ddd957c77dc43bb5e97b2746
-sources:
   Perl-Critic-Pulp-79.tar.gz: 0ff592be710dcd0c0b48fdaf742070a97b49dbb9
+sources:
+  Perl-Critic-Pulp-81.tar.gz: 9ad42e99cad87ff0b7a5abd2fad11d40b7470b96

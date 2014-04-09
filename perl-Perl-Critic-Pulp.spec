@@ -6,14 +6,15 @@
 %define __noautoprov 'perl(.*MinimumVersion)'
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 81
+Release:	1
 
 Summary:	Don't use Foo:: style barewords
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Perl/Perl-Critic-Pulp-80.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Perl/%{upstream_name}-81.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(IO::String)
@@ -65,3 +66,4 @@ rm -f *.list
 %doc Changes README META.yml
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
