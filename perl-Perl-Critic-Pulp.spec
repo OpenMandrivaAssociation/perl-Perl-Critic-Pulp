@@ -49,7 +49,7 @@ you're not turning off or customizing about half then you're either not
 trying or you're much too easily lead!
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -qn %{upstream_name}-81
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
