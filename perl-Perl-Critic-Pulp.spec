@@ -7,7 +7,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 85
-Release:	2
+Release:	3
 
 Summary:	Don't use Foo:: style barewords
 
