@@ -1,5 +1,5 @@
 %define upstream_name    Perl-Critic-Pulp
-%define upstream_version 80
+%define upstream_version 90
 
 #%define __noautorpov 'perl\\(Perl::MinimumVersion\\)'
 #%define __noautorpov 'perl\\(.*'
