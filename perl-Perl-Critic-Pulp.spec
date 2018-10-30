@@ -1,8 +1,6 @@
 %define upstream_name    Perl-Critic-Pulp
 %define upstream_version 90
 
-#%define __noautorpov 'perl\\(Perl::MinimumVersion\\)'
-#%define __noautorpov 'perl\\(.*'
 %define __noautoprov 'perl(.*MinimumVersion)'
 
 Name:		perl-%{upstream_name}
