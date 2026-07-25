@@ -1,19 +1,19 @@
 %define upstream_name    Perl-Critic-Pulp
-%define upstream_version 90
+%define upstream_version 100
 
 %define __noautoprov 'perl(.*MinimumVersion)'
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Don't use Foo:: style barewords
 
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Perl/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://user42.tuxfamily.org/perl-critic-pulp/index.html
+Source0:	https://cpan.metacpan.org/authors/id/K/KR/KRYDE/Perl-Critic-Pulp-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
